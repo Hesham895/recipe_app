@@ -1,0 +1,16 @@
+name: recipe_app
+description: A simple recipe app.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+flutter:
+  assets:
+    - assets/recipes.json
